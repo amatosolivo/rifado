@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cocaleca.rifado",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.1",
+    "applicationType": "microservice",
+    "baseName": "rifado",
+    "packageName": "com.cocaleca.rifado",
+    "packageFolder": "com/cocaleca/rifado",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODNjNzEyMzdiYzY0ZjNhNGRkNTRlNWQ1ZDk2ZGJlZTFlMjhkZTg1MTYwMDRhMDg4YWFkZTQ3N2QxNjM3MjNhYzE4NGZhNjQ4NjNmMTBlYjY2NDZmMTc5Y2VkYThjOGIyNmYyYzk5MGI5MmY3ZTg0MzA2MGFmYTNiYjU0YjRkZGI=",
+    "enableTranslation": true,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
